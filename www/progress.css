@@ -1,0 +1,41 @@
+
+
+.loading-screen {
+  background-color : rgba(255,255,255,0.8);
+  top: 0px;
+  width: 100%;
+  bottom:0px;
+  display: block;
+  position:absolute;
+}
+
+.loading-container {
+  font-family : "Lucida Console", Monaco, monospace;
+  color: #000;
+  position:absolute;
+  width: 100%;
+  left: 0%;
+  bottom:0px;
+  padding: 10px;
+}
+
+.loading-item {
+    padding: 5px;
+    width: 99%;
+}
+
+.loading-bar-out { 
+  height:5px;
+  width:100%;
+  border:1px solid #000;
+}
+
+.loading-bar-in {
+  width:0px;
+  height:100%;
+  background-color: #000;
+}
+
+.loading-bar-txt {
+  font-size: 14px;
+}
