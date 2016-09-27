@@ -11,6 +11,8 @@ Does not work on windows.
 Rscript run.R
 ```
 
+![demo dofork](https://raw.githubusercontent.com/fxi/doFork/master/www/dofork.png "DoFork demo")
+
 ### Usage
 
 ```{R}
