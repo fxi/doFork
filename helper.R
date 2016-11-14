@@ -11,7 +11,8 @@
 #' @return process pid
 #' @export
 doFork <- function(expr, export=NULL,onFeedback=NULL, onMessage=NULL, onTimeout=NULL, refreshRateSeconds= 1, maxTimeSeconds = Inf ){
-  library(parallel)
+  
+  stopifnot(require(parallel))
 
   #
   # export function
