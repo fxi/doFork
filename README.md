@@ -1,4 +1,7 @@
+**This project is no longer maintained and will be removed soon**
+
 # Shiny asynchronous jobs
+
 
 Experiemental work on forked computation in a shiny app using the package "parallel".
 
